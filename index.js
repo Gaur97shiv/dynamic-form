@@ -9,9 +9,9 @@ labelInputField.addEventListener('keyup', (event) => {
 
     if (keyPressed === "Enter") {
         // create inputs 
-        const type = inputType.value //jo bhi user ne type kiya hoga
+        const type = inputType.value //jo select kiya he (options me se)
 
-        const label = labelInputField.value//jo bhi user ne select kiya hoga
+        const label = labelInputField.value//jo bhi user ne type kiya he wo ye he
 
         const labelInput = document.createElement("label")//this create an additional html label
 //jo bhi usane label me dala he use me form isert karte samay label bana dunga
